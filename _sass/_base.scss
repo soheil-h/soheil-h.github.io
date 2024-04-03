@@ -170,6 +170,7 @@ ul.task-list input[type="checkbox"] {
 
   .card-title {
     color: var(--global-text-color);
+    font-size: 18px;
   }
 
   .card-item {
@@ -622,6 +623,13 @@ footer.sticky-bottom {
     }
   }
 
+  .card-body {
+    padding-top: 2px;
+    padding-bottom: 2px;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
   .card {
     img {
       width: 100%;
@@ -661,7 +669,7 @@ footer.sticky-bottom {
 
   h1 {
     color: var(--global-theme-color);
-    font-size: 2rem;
+    font-size: 3rem;
     text-align: center;
     margin-top: 1em;
     margin-bottom: 1em;
@@ -675,14 +683,24 @@ footer.sticky-bottom {
     }
   }
 
-  h2.bibliography {
-    color: var(--global-divider-color);
-    border-top: 1px solid var(--global-divider-color);
+  h2.year {
+    color: var(--global-year-divider-color);
+    border-bottom: 1px solid var(--global-divider-color);
     padding-top: 1rem;
-    margin-top: 2rem;
-    margin-bottom: -2rem;
+    margin-top: -2rem;
+    margin-bottom: 2rem;
     text-align: right;
+    font-weight: bold;
   }
+
+  // h2.bibliography {
+  //   color: var(--global-divider-color);
+  //   border-top: 1px solid var(--global-divider-color);
+  //   padding-top: 1rem;
+  //   margin-top: 2rem;
+  //   margin-bottom: -2rem;
+  //   text-align: right;
+  // }
 
   ol.bibliography {
     list-style: none;
@@ -693,9 +711,9 @@ footer.sticky-bottom {
       margin-bottom: 1rem;
 
       .preview {
-        width: 100%;
+        width: 110%;
         min-width: 80px;
-        max-width: 200px;
+        max-width: 250px;
       }
 
       .abbr {
@@ -724,7 +742,8 @@ footer.sticky-bottom {
       }
 
       .title {
-        font-weight: bolder;
+        font-weight: 600;
+        font-size: 18px;
       }
 
       .author {
@@ -1117,4 +1136,32 @@ swiper-container {
   --swiper-navigation-color: var(--global-theme-color);
   --swiper-pagination-color: var(--global-theme-color);
   --swiper-pagination-bullet-inactive-color: var(--global-text-color);
+}
+
+
+// Youtube Videos
+
+.vimeo-wrapper{
+  width:100%
+}
+
+.vimeo-video-1{
+ float:left;
+ width:45%;
+ margin-bottom: 5rem;
+}
+
+
+.vimeo-video-2 {
+ float:right;
+ width:45%;
+ margin-bottom: 5rem;
+}
+
+
+.center {
+ display: block;
+ margin-left: auto;
+ margin-right: auto;
+ width: 50%;
 }
