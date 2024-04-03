@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-I am delighted that our paper titled "<em>Wrapping haptic displays around robot arms to communicate learning</em>," published in the <b>IEEE Transactions on Haptics</b>, has been selected as the <b>Best Application Paper Award</b>. 
+I am thrilled that our paper titled "<em>Wrapping haptic displays around robot arms to communicate learning</em>" has won the <b>2024 IEEE Transactions on Haptics Best Application Paper Award</b>.
