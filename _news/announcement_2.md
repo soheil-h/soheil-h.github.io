@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Our recent work on waypoint-based reinforcement learning just got accepted to [IEEE/RSJ International Conference on Intelligent Robots and Systems](https://iros2024-abudhabi.org/). Check out the [paper](https://soheilhbn.com/assets/pdf/iros2024.pdf).
+Our recent work on waypoint-based reinforcement learning just got accepted to IEEE/RSJ International Conference on Intelligent Robots and Systems. Check out the [paper](https://soheilhbn.com/assets/pdf/iros2024.pdf).
