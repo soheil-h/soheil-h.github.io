@@ -14,7 +14,7 @@ selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-I'm an AIML Resident at [Apple](https://www.apple.com/) and a Virginia Tech Ph.D. graduate specializing in AI robotics. My research interests include robot learning, human-robot collaboration, and artificial intelligence. I spent Spring 2023 as a research intern at [Honda Research Institute](https://usa.honda-ri.com/) working on modeling human cognitive states in hybrid mobility environments.
+I'm currently an AIML Resident at [Apple](https://www.apple.com/). I did my Ph.D. at Virginia Tech, specializing in robot learning, human-robot collaboration, and artificial intelligence. I spent Spring 2023 as a research intern at [Honda Research Institute](https://usa.honda-ri.com/) working on modeling human cognitive states in hybrid mobility environments.
 
 Previously, I did my masters in mechanical engineering at Bucknell University and worked on a research project, funded by [Toyota Research Institute](https://www.tri.global/), that was focused on modeling and control of a flexible soft actuator for creating soft robotic arms.
 
