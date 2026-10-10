@@ -51,7 +51,7 @@ You need to [create a personal access token](https://docs.github.com/en/authenti
 
 #### My code runs fine locally, but when I create a commit and submit it, it fails with `prettier code formatter workflow run failed for master branch`. How do I fix that?
 
-We implemented support for [Prettier code formatting](https://prettier.io/) in [#2048](https://github.com/alshedivat/al-folio/pull/2048). It basically ensures that your code is well formatted. If you want to ensure your code is compliant with `Prettier` you can install it in your computer [integrated with an editor](https://prettier.io/docs/en/editors), [install it and run manually](https://prettier.io/docs/en/install), or you can disable it for your repo. For this, just delete the file [.github/workflows/prettier.yml](https://github.com/alshedivat/al-folio/blob/master/.github/workflows/prettier.yml).
+We implemented support for [Prettier code formatting](https://prettier.io/) in [#2048](https://github.com/alshedivat/al-folio/pull/2048). It basically ensures that your code is well formatted. If you want to ensure your code is compliant with `Prettier` you can install it in your computer [integrated with an editor](https://prettier.io/docs/en/editors), [install it and run manually](https://prettier.io/docs/en/install), or you can disable it for your repo. For this, just delete the file `.github/workflows/prettier.yml` if it exists.
 
 #### After I update my site with some new content, even a small change, the GitHub action throws an error or displays a warning. What happened?
 
