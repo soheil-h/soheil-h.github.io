@@ -1,0 +1,14 @@
+# These specific URLs reject automated clients with HTTP 403 or 999.
+# Keep their public links, and continue checking other URLs on these domains.
+
+# IJRR article: the DOI resolves to a publisher page that blocks the checker.
+^https://doi\.org/10\.1177/02783649241281369$
+
+# Toyota Research Institute homepage.
+^https://www\.tri\.global/$
+
+# KaTeX/MathJax comparison demo.
+^https://www\.intmath\.com/cg5/katex-mathjax-comparison\.php$
+
+# SYNTECH company page: LinkedIn returns its automated-access status 999.
+^https://www\.linkedin\.com/company/syntechcenter/?$
