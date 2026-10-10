@@ -46,7 +46,9 @@ jobs:
 
       - name: Link Checker 🔗
         uses: lycheeverse/lychee-action@v1.9.0
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
           fail: true
           # removed md files that include liquid tags
-          args: --exclude-path README.md --exclude-path _pages/404.md --exclude-path _pages/blog.md --exclude-path _posts/2018-12-22-distill.md --verbose --no-progress './**/*.md' './**/*.html'
+          args: --exclude-path README.md --exclude-path _pages/404.md --exclude-path _pages/blog.md --exclude-path _posts/2018-12-22-distill.md --max-concurrency 8 --max-retries 5 --retry-wait-time 3 --verbose --no-progress './**/*.md' './**/*.html'

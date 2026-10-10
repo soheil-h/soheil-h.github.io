@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Our RA-L paper, "Encouraging Human Interaction with Robot Teams: Legible and Fair Subtask Allocations" got accepted for presentation at the [2023 IEEE International Conference on Robotics and Automation (ICRA)](https://www.icra2023.org/).
+Our RA-L paper, "Encouraging Human Interaction with Robot Teams: Legible and Fair Subtask Allocations" got accepted for presentation at the [2023 IEEE International Conference on Robotics and Automation (ICRA)](https://ewh.ieee.org/soc/ras/conf/fullysponsored/icra/ICRA%202023/www.icra2023.org/index.html).
